@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <setting id="dht11_bin" type="file" label="DHT11 binary" default="/opt/RPi/dht11/dht11" />
+</settings>
