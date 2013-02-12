@@ -16,5 +16,5 @@ def read_data_dht11( dht11_bin ):
 
 ( h, t ) = read_data_dht11( __dht11_bin__ )
 dialog = xbmcgui.Dialog()
-dialog.ok( "DHT11", "Temperature: " + t + ", Humidity: " + h )
+dialog.ok( "DHT11", "Temperature: " + str( t ) + ", Humidity: " + str( h ) )
 del dialog
